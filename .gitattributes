@@ -1,0 +1,11 @@
+# Set correct behaviour, in case users have core.autocrlf set to auto.
+ * text eol=lf
+
+ # Explicitly declare text files we want to always be normalized and converted
+ # to native line endings on checkout.
+ *.css text
+ *.html text
+ *.java text
+ *.js text
+ *.sh text
+ *.xml text
